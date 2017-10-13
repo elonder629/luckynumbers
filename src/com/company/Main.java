@@ -22,7 +22,7 @@ public class Main {
                 exit = true;
             } else if (control.equalsIgnoreCase("1")) {
                 for (int x = 0; x < luckynumbers.length; x++) {
-                    System.out.println("Nice to meet you" + luckynumbers[x].Name + "! Your lucky number is" + luckynumbers[x].luckyNumber);
+                    System.out.println("Nice to meet you " + luckynumbers[x].Name + "! Your lucky number is " + luckynumbers[x].luckyNumber);
                 }
             }
         } while (!exit);
