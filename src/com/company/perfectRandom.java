@@ -8,7 +8,7 @@ public class perfectRandom {
         luckyNumber = randomSquare();
     }
     private int randomSquare(){
-        return  (int)Math.pow(((int)Math.random()*100),2);
+        return  (int)Math.pow(((int)(Math.random()*100)),2);
 
     }
 }
